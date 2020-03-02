@@ -1,0 +1,145 @@
+.footer {
+    position: absolute;
+
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color:darkgray;
+    
+    
+  }
+body.malaria
+{
+    width: 100%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+
+}
+div.container3 {
+    height: 50em;
+    position: relative }
+div.container3 p {
+    /*margin: 0;*/
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+div.container3 h3 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+div.container h3 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+        
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+
+
+div.container_Malaria h1 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    color:Blue;
+    font-size: 50px;       
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+div.container_mal h3 {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    font-size: 35px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+label.custom-file-label
+{
+    width: 25%;
+    height: 50px;
+    font-size: 23px;
+}
+
+label.custom-file-label1
+{
+   
+    font-size: 23px;
+}
+div.container_result p{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    font-size: 50px;
+    
+    left: 55%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+div.container_result h1{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    font-size: 50px;
+    
+    left: 55%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+    
+div.container_mal p {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    
+    left: 55%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+div.container_image img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+div.container_mal dl{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+div.container_mal p {
+    margin: 0;
+    position: absolute;
+    top: 60%;    
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+
+
+.nav-item
+{
+
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>E-Disease Detector</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='website.ico') }}">
+</head>
+</html>
+
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="navbar-header" >
+        <img src="/static/img/website.jpg" height="80px" width="115px">
+        
+    </div>
+    <ul class="navbar-nav">
+    
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/malaria">Malaria-Detector</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Cancer-Prediction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Bone-Fracture-Detection</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Diabetes-Prediction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact US!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+  </nav>
+
+ <body background="/static/img/bg1.jpg">
+        
+    
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+  
+        <h1>Upload  Sample Image</h1>
+        <hr>
+  
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+  
+          <div class="form-group">
+            <label>Select image</label>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" name="image" id="image">
+              <label class="custom-file-label" for="image">Select image...</label>
+            </div>
+          </div>
+  
+          <button type="submit" class="btn btn-primary">Upload</button>
+  
+        </form>
+  
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+  
+        <h1>Upload Seat Planning Data</h1>
+        <hr>
+  
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+  
+          <div class="form-group">
+            <label>Select Data File</label>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" name="image" id="image">
+              
+            </div>
+          </div>
+  
+          <button type="submit" class="btn btn-primary">Upload</button>
+  
+        </form>
+  
+      </div>
+    </div>
+  </div>
+-->
+</body>
+  
+  <h1>{{imga}}</h1>
+<!--<div class=container_mal>
+  <h3>Upload Your Sample:</h3>
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul class=flashes>
+		{% for message in messages %}
+		  <li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+<form method="post" action="/malaria" enctype="multipart/form-data">
+    <dl>
+		<p>
+			<input type="file" name="file" autocomplete="off" required>
+		</p>
+    </dl>
+    <div class=container_mal_upload>
+    <p>
+		<input type="submit" value="Upload"></p></div>
+
+</form>
+</div>-->
+
+
+
+
+
+<footer class="footer">
+        <div class="container">
+          <h3>MyThingsWork!!</h3>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>E-Disease Detector</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='website.ico') }}">
+</head>
+</html>
+
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="navbar-header" >
+        <img src="/static/img/website.jpg" height="80px" width="115px">
+        
+    </div>
+    <ul class="navbar-nav">
+    
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/malaria">Malaria-Detector</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/cancer">Cancer-Prediction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/bone">Bone-Fracture-Detection</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Diabetes-Prediction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact US!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+  </nav>
+
+ <body background="/static/img/bg3.jpg">
+        
+    
+
+</body>
+
+
+
+
+
+
+<div class=container_Malaria >
+  <h1><marquee behavior="scroll" direction="left" >Cancer Detector</marquee></h1>
+  <div class="row">
+      <div class="col">
+  
+        <h2>Upload  Sample Image</h2>
+        <hr>
+  
+        <form action="/malaria" method="POST" enctype="multipart/form-data">
+  
+          <div class="form-group">
+            <label class="custom-file-label1"><b>Select image</b></label>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" name="image" id="image" maxlength="20" size="10">
+              <label class="custom-file-label" for="image" >Select image...</label>
+            </div>
+          </div>
+  
+          <button type="submit" class="btn btn-primary">Detect</button>
+  
+        </form>
+  
+      </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<div class="container_image">
+  
+  <img src={{imga}} alt="Sample Image">
+  
+</div>
+<div class="container_result">
+  
+  <h1>Result: {{output}}</h1>
+</div>
+
+
+
+<footer class="footer">
+        <div class="container">
+          <h3>MyThingsWork!!</h3>
+        </div>
+      </footer>
